@@ -1,5 +1,4 @@
-﻿<!DOCTYPE html>
-
+<!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,19 +14,20 @@
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
-        <h2>calculator</h2>
-        <input type="text" id="display" placeholder="0" onkeyup="calculate(event)">
-        <h3 id="result"></h3>
-        <table>
-            <tr>
-                <td><input type="button" value="+" onclick="addToDisplay('+')"></td>
-                <td><input type="button" value="-" onclick="addToDisplay('-')"></td>
-                <td><input type="button" value="*" onclick="addToDisplay('*')"></td>
-                <td><input type="button" value="/" onclick="addToDisplay('/')"></td>
-                <td><input type="button" value="C" onclick="clearDisplay()"></td>
-                <td colspan="4"><input type="button" value="=" onclick="calculate()"></td>
-            </tr>
-        </table>  
+
+    <h2>Calculator</h2>
+    <input type="text" id="display" placeholder="0" onkeyup="calculate(event)">
+    <h3 id="result"></h3>
+    <table>
+        <tr class="button">
+            <td><input type="button" value="+" onclick="addToDisplay('+')"></td>
+            <td><input type="button" value="-" onclick="addToDisplay('-')"></td>
+            <td><input type="button" value="*" onclick="addToDisplay('*')"></td>
+            <td><input type="button" value="/" onclick="addToDisplay('/')"></td>
+            <td><input type="button" value="C" onclick="clearDisplay()"></td>
+            <td colspan="10"><input type="button" value="=" onclick="calculate()"></td>
+        </tr>
+    </table>
     <script src="myjs.js"></script>
 
 </body>
