@@ -1,4 +1,4 @@
-﻿* {
+* {
     margin: 0;
     padding: 0;
     font-family: Arial;
@@ -39,4 +39,32 @@ nav ul li {
 
 nav ul li:hover {
     background: #808080a7;
-}           
+}
+
+
+
+
+h2 {
+    width: 100px;
+    height: 80px;
+    font-size: 44px;
+}
+
+.calculator-table td {
+    width: 100px;
+    height: 80px;
+}
+
+.button {
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+}
+
+.display {
+    width: 200px;
+}
+
+h3 {
+    font-size: 44px;
+}
