@@ -36,7 +36,7 @@ function clearDisplay() {
     document.getElementById('result').innerHTML = "";
 }
 
-function performCalculation(event) {
+function calculate(event) {
     if (event && event.keyCode !== 13) {
         return;
     }
